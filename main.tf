@@ -112,7 +112,7 @@ resource "aws_instance" "server" {
   key_name               = aws_key_pair.example.key_name
 
   tags = {
-    Name = "Terraform-WebServer"
+    Name = "web server"
   }
 }
 
